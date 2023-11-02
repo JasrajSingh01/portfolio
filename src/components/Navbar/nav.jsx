@@ -8,20 +8,20 @@ function nav() {
       {/* Sidebar */}
       <Sidebar />
       <div className="wrapper">
-        <motion.span
+        {/* <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
           Jasraj Singh
-        </motion.span>
-        {/*         <motion.span
+        </motion.span> */}
+        <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-        transition={{duration:0.5}}
+          transition={{ duration: 0.5 }}
         >
           JS
-        </motion.span> */}
+        </motion.span>
         <div className="social">
           <a href="#">
             <img src="/fb.svg" alt="" />
