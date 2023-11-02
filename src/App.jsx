@@ -1,5 +1,5 @@
 import "./scss/app.scss";
-import Nav from "./components/Navbar/nav";
+import Nav from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 const App = () => {
   return (

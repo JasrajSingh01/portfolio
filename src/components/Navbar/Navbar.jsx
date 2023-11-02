@@ -1,6 +1,6 @@
 import "./nav.scss";
 import { motion } from "framer-motion";
-import Sidebar from "../Sidebar/sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 
 function nav() {
   return (
